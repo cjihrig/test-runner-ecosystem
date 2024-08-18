@@ -1,0 +1,15 @@
+{
+  "name": "test-runner-ecosystem",
+  "version": "1.0.0",
+  "description": "node:test with various ecosystem modules",
+  "license": "MIT",
+  "author": "Colin J. Ihrig <cjihrig@gmail.com> (http://www.cjihrig.com/)",
+  "scripts": {
+    "test": "node --test --test-reporter=@reporters/mocha --experimental-test-snapshots --import=./setup.mjs --no-warnings=experimental"
+  },
+  "dependencies": {
+    "@reporters/mocha": "^1.0.1",
+    "chai": "^5.1.1",
+    "pretty-format": "^29.7.0"
+  }
+}
