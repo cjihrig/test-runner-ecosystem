@@ -8,8 +8,8 @@
     "test": "node --test --test-reporter=@reporters/mocha --experimental-test-snapshots --import=./setup.mjs --no-warnings=experimental"
   },
   "dependencies": {
-    "@reporters/mocha": "^1.0.1",
-    "chai": "^5.1.1",
+    "@reporters/mocha": "^1.0.2",
+    "chai": "^5.1.2",
     "pretty-format": "^29.7.0"
   }
 }
